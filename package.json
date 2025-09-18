@@ -1,0 +1,44 @@
+{
+  "name": "psview",
+  "version": "1.0.0",
+  "description": "A CLI tool to view local processes, especially Node.js processes with PID, URL, and path",
+  "main": "index.js",
+  "bin": {
+    "psview": "./bin/psview.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "process",
+    "node",
+    "monitoring",
+    "ps",
+    "url",
+    "pid",
+    "cross-platform",
+    "process-monitor"
+  ],
+  "author": "linhf123",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhf123/psview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linhf123/psview/issues"
+  },
+  "homepage": "https://github.com/linhf123/psview#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
