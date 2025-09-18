@@ -45,11 +45,13 @@ npx psview --help
 ## 平台兼容性
 
 ### Windows
+
 - 使用 `wmic` 命令获取进程信息
 - 使用 `netstat` 命令检查端口监听
 - 支持 Windows 10 及以上版本
 
 ### macOS/Linux
+
 - 使用 `ps` 命令获取进程信息
 - 使用 `lsof` 命令检查端口监听
 - 支持所有主要的 Unix 系统
